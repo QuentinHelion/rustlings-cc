@@ -14,3 +14,4 @@ error[E0308]: `if` and `else` have incompatible types
 
 error: aborting due to previous error
 
+Mauvais type retourner par la fonction, on le remplace par un 0 
