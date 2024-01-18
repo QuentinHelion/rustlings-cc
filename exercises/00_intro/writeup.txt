@@ -13,3 +13,6 @@ error: cannot find macro `printline` in this scope
 
 error: aborting due to previous error
 
+
+printline!() n'existe pas => print!() ou println!()
+
