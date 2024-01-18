@@ -8,3 +8,5 @@ error: missing type for `const` item
 
 error: aborting due to previous error
 
+Solution:
+il faut déclarer le type de variable 
