@@ -49,3 +49,5 @@ error[E0599]: no method named `get_fees` found for struct `Package` in the curre
 
 error: aborting due to 5 previous errors
 
+
+Updates des fonctions avec return et params
