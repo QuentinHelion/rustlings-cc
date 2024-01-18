@@ -20,3 +20,5 @@ error[E0425]: cannot find value `item` in this scope
 
 error: aborting due to 3 previous errors
 
+33 => ajouter le bon type pour le param
+soluce => impl SomeTrait + OtherTrait pour pemettre d'entrer et d'importer SomeTrait et OtherTrait dans la fonction
