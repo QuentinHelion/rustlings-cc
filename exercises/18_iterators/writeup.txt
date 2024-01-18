@@ -63,5 +63,5 @@ failures:
 test result: FAILED. 0 passed; 8 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
 
-Les fonctions n'était pas faite.
+Les fonctions n'étaient pas faites.
 
