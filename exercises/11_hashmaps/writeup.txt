@@ -34,3 +34,14 @@ failures:
 
 test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
+
+Ajout d'un score entry pour "enregistrer" les scores
+
+ scores.entry(
+            team_1_name.to_string()).or_insert(Team {
+                goals_scored: team_1_score,
+                goals_conceded: team_2_score,
+        });
+
+
+ 
