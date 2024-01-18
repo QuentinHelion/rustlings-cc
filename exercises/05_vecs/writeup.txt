@@ -1,0 +1,15 @@
+⚠️  Compiling of exercises/05_vecs/vecs2.rs failed! Please try again. Here's the output:
+error: expected expression, found `?`
+  --> exercises/05_vecs/vecs2.rs:16:9
+   |
+16 |         ???
+   |         ^ expected expression
+
+error: expected expression, found `?`
+  --> exercises/05_vecs/vecs2.rs:27:9
+   |
+27 |         ???
+   |         ^ expected expression
+
+error: aborting due to 2 previous errors
+

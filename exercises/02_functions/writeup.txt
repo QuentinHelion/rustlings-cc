@@ -1,0 +1,14 @@
+⚠️  Compilation of exercises/02_functions/functions5.rs failed!, Compiler error message:
+
+error[E0308]: mismatched types
+  --> exercises/02_functions/functions5.rs:13:24
+   |
+13 | fn square(num: i32) -> i32 {
+   |    ------              ^^^ expected `i32`, found `()`
+   |    |
+   |    implicitly returns `()` as its body has no tail or `return` expression
+14 |     num * num;
+   |              - help: remove this semicolon to return this value
+
+error: aborting due to previous error
+

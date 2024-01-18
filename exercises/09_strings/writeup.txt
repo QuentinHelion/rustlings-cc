@@ -1,0 +1,10 @@
+⚠️  Compilation of exercises/09_strings/strings4.rs failed!, Compiler error message:
+
+error: expected expression, found `?`
+  --> exercises/09_strings/strings4.rs:20:5
+   |
+20 |     ???("blue");
+   |     ^ expected expression
+
+error: aborting due to previous error
+

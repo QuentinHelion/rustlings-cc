@@ -1,0 +1,28 @@
+  Testing of exercises/13_error_handling/errors6.rs failed! Please try again. Here's the output:
+
+running 4 tests
+test test::test_negative ... ok
+test test::test_positive ... ok
+test test::test_zero ... ok
+test test::test_parse_error ... FAILED
+
+successes:
+
+successes:
+    test::test_negative
+    test::test_positive
+    test::test_zero
+
+failures:
+
+---- test::test_parse_error stdout ----
+thread 'test::test_parse_error' panicked at exercises/13_error_handling/errors6.rs:34:28:
+called `Result::unwrap()` on an `Err` value: ParseIntError { kind: InvalidDigit }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    test::test_parse_error
+
+test result: FAILED. 3 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

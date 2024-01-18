@@ -1,0 +1,8 @@
+⚠️  Compiling of exercises/04_primitive_types/primitive_types6.rs failed! Please try again. Here's the output:
+error: expected expression, found `?`
+  --> exercises/04_primitive_types/primitive_types6.rs:15:18
+   |
+15 |     let second = ???;
+   |                  ^ expected expression
+
+

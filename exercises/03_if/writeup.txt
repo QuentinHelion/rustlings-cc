@@ -1,0 +1,16 @@
+⚠️  Compiling of exercises/03_if/if3.rs failed! Please try again. Here's the output:
+error[E0308]: `if` and `else` have incompatible types
+  --> exercises/03_if/if3.rs:15:9
+   |
+12 |       } else if animal == "snake" {
+   |  ____________-
+13 | |         3
+   | |         - expected because of this
+14 | |     } else {
+15 | |         "Unknown"
+   | |         ^^^^^^^^^ expected integer, found `&str`
+16 | |     };
+   | |_____- `if` and `else` have incompatible types
+
+error: aborting due to previous error
+

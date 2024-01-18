@@ -1,0 +1,39 @@
+⚠️  Compiling of exercises/08_enums/enums3.rs failed! Please try again. Here's the output:
+error[E0599]: no variant or associated item named `ChangeColor` found for enum `Message` in the current scope
+  --> exercises/08_enums/enums3.rs:62:32
+   |
+10 | enum Message {
+   | ------------ variant or associated item `ChangeColor` not found for this enum
+...
+62 |         state.process(Message::ChangeColor(255, 0, 255));
+   |                                ^^^^^^^^^^^ variant or associated item not found in `Message`
+
+error[E0599]: no variant or associated item named `Echo` found for enum `Message` in the current scope
+  --> exercises/08_enums/enums3.rs:63:32
+   |
+10 | enum Message {
+   | ------------ variant or associated item `Echo` not found for this enum
+...
+63 |         state.process(Message::Echo(String::from("Hello world!")));
+   |                                ^^^^ variant or associated item not found in `Message`
+
+error[E0599]: no variant or associated item named `Move` found for enum `Message` in the current scope
+  --> exercises/08_enums/enums3.rs:64:32
+   |
+10 | enum Message {
+   | ------------ variant or associated item `Move` not found for this enum
+...
+64 |         state.process(Message::Move(Point { x: 10, y: 15 }));
+   |                                ^^^^ variant or associated item not found in `Message`
+
+error[E0599]: no variant or associated item named `Quit` found for enum `Message` in the current scope
+  --> exercises/08_enums/enums3.rs:65:32
+   |
+10 | enum Message {
+   | ------------ variant or associated item `Quit` not found for this enum
+...
+65 |         state.process(Message::Quit);
+   |                                ^^^^ variant or associated item not found in `Message`
+
+error: aborting due to 4 previous errors
+

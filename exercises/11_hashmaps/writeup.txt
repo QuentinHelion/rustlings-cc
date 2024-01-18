@@ -1,0 +1,36 @@
+⚠️  Testing of exercises/11_hashmaps/hashmaps3.rs failed! Please try again. Here's the output:
+
+running 3 tests
+test tests::build_scores ... FAILED
+test tests::validate_team_score_1 ... FAILED
+test tests::validate_team_score_2 ... FAILED
+
+successes:
+
+successes:
+
+failures:
+
+---- tests::build_scores stdout ----
+thread 'tests::build_scores' panicked at exercises/11_hashmaps/hashmaps3.rs:65:9:
+assertion `left == right` failed
+  left: []
+ right: ["England", "France", "Germany", "Italy", "Poland", "Spain"]
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- tests::validate_team_score_1 stdout ----
+thread 'tests::validate_team_score_1' panicked at exercises/11_hashmaps/hashmaps3.rs:74:42:
+called `Option::unwrap()` on a `None` value
+
+---- tests::validate_team_score_2 stdout ----
+thread 'tests::validate_team_score_2' panicked at exercises/11_hashmaps/hashmaps3.rs:82:40:
+called `Option::unwrap()` on a `None` value
+
+
+failures:
+    tests::build_scores
+    tests::validate_team_score_1
+    tests::validate_team_score_2
+
+test result: FAILED. 0 passed; 3 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

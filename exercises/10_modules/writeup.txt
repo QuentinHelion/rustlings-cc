@@ -1,0 +1,10 @@
+⚠️  Compilation of exercises/10_modules/modules3.rs failed!, Compiler error message:
+
+error: expected identifier, found `?`
+  --> exercises/10_modules/modules3.rs:14:5
+   |
+14 | use ???
+   |     ^ expected identifier
+
+error: aborting due to previous error
+
