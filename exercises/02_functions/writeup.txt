@@ -12,3 +12,4 @@ error[E0308]: mismatched types
 
 error: aborting due to previous error
 
+Il manque un return à la fonction
