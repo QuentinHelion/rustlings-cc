@@ -37,3 +37,5 @@ error[E0599]: no variant or associated item named `Quit` found for enum `Message
 
 error: aborting due to 4 previous errors
 
+Remplissage de l'enum avec les message utilisés dans le code
+
