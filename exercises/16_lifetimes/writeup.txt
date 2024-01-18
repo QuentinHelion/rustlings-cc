@@ -27,3 +27,4 @@ help: consider introducing a named lifetime parameter
 
 error: aborting due to 2 previous errors
 
+Ajout d'une durée de vie avec 'a
