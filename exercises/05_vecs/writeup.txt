@@ -13,3 +13,5 @@ error: expected expression, found `?`
 
 error: aborting due to 2 previous errors
 
+1ère erreur => il faut déférencer element pour changer la valeur
+2ème erreur => simple *2
