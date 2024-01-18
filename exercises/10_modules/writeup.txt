@@ -8,3 +8,4 @@ error: expected identifier, found `?`
 
 error: aborting due to previous error
 
+Ajout des uses dans les parties permettant d'avoir un bon resultat
