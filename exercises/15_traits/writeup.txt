@@ -1,0 +1,22 @@
+⚠️  Compilation of exercises/15_traits/traits5.rs failed!, Compiler error message:
+
+error: expected identifier, found `)`
+  --> exercises/15_traits/traits5.rs:33:22
+   |
+33 | fn some_func(item: ??) -> bool {
+   |                      ^ expected identifier
+
+error[E0425]: cannot find value `item` in this scope
+  --> exercises/15_traits/traits5.rs:34:5
+   |
+34 |     item.some_function() && item.other_function()
+   |     ^^^^ not found in this scope
+
+error[E0425]: cannot find value `item` in this scope
+  --> exercises/15_traits/traits5.rs:34:29
+   |
+34 |     item.some_function() && item.other_function()
+   |                             ^^^^ not found in this scope
+
+error: aborting due to 3 previous errors
+
