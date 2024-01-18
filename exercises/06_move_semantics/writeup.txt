@@ -37,3 +37,6 @@ error[E0716]: temporary value dropped while borrowed
 
 error: aborting due to 2 previous errors
 
+
+
+Changement des types de chaques variables
