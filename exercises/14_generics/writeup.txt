@@ -21,3 +21,4 @@ error[E0308]: mismatched types
 
 error: aborting due to 2 previous errors
 
+On ajoute <T> pour permettre de renvoyer un valeur en fonction de params d'entré
