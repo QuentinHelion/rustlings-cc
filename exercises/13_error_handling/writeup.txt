@@ -26,3 +26,5 @@ failures:
 
 test result: FAILED. 3 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
+
+erreur en cas de mauvais parse, on prévois donc l'erreur de parsage avec ParsePosNonzeroError
