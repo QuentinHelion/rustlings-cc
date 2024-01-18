@@ -1,0 +1,63 @@
+⚠️  Testing of exercises/18_iterators/iterators5.rs failed! Please try again. Here's the output:
+
+running 8 tests
+test tests::count_complete_equals_for ... FAILED
+test tests::count_collection_complete ... FAILED
+test tests::count_collection_some ... FAILED
+test tests::count_collection_none ... FAILED
+test tests::count_complete ... FAILED
+test tests::count_collection_equals_for ... FAILED
+test tests::count_none ... FAILED
+test tests::count_some ... FAILED
+
+successes:
+
+successes:
+
+failures:
+
+---- tests::count_complete_equals_for stdout ----
+thread 'tests::count_complete_equals_for' panicked at exercises/18_iterators/iterators5.rs:38:5:
+not yet implemented
+
+---- tests::count_collection_complete stdout ----
+thread 'tests::count_collection_complete' panicked at exercises/18_iterators/iterators5.rs:57:5:
+not yet implemented
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+---- tests::count_collection_some stdout ----
+thread 'tests::count_collection_some' panicked at exercises/18_iterators/iterators5.rs:57:5:
+not yet implemented
+
+---- tests::count_collection_none stdout ----
+thread 'tests::count_collection_none' panicked at exercises/18_iterators/iterators5.rs:57:5:
+not yet implemented
+
+---- tests::count_complete stdout ----
+thread 'tests::count_complete' panicked at exercises/18_iterators/iterators5.rs:38:5:
+not yet implemented
+
+---- tests::count_collection_equals_for stdout ----
+thread 'tests::count_collection_equals_for' panicked at exercises/18_iterators/iterators5.rs:57:5:
+not yet implemented
+
+---- tests::count_none stdout ----
+thread 'tests::count_none' panicked at exercises/18_iterators/iterators5.rs:38:5:
+not yet implemented
+
+---- tests::count_some stdout ----
+thread 'tests::count_some' panicked at exercises/18_iterators/iterators5.rs:38:5:
+not yet implemented
+
+
+failures:
+    tests::count_collection_complete
+    tests::count_collection_equals_for
+    tests::count_collection_none
+    tests::count_collection_some
+    tests::count_complete
+    tests::count_complete_equals_for
+    tests::count_none
+    tests::count_some
+
+test result: FAILED. 0 passed; 8 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
