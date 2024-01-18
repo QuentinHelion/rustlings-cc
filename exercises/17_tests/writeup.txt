@@ -22,3 +22,5 @@ note: while trying to match meta-variable `$left:expr`
    |
 37 |     ($left:expr, $right:expr $(,)?) => {
 
+Ajout  d'un parametre permettant la panic en dessous de [#test]
+=> #[should_panic]
